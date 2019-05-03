@@ -1,0 +1,12 @@
+<div>
+  <h2>Informaciòn</h2>
+</div>
+<ejs-grid  [dataSource]='data' [allowFiltering]='true' >
+    <e-columns>
+      <e-column field='BookingId' headerText='BookingId' textAlign='Center' width='120' filter="numeric" ></e-column>
+      <e-column  field='firstName' headerText='Cliente' width='120'></e-column>
+      <e-column field='bookingTime' headerText='Fecha de Creación' textAlign='Center' width='120'></e-column>
+      <e-column field='streetAddress' headerText='Direccion' textAlign='Center' width='120'></e-column>
+      <e-column field='bookingPrice' headerText='Precio' textAlign='Center' width='120'></e-column>
+    </e-columns>
+  </ejs-grid>
